@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* применение шрифта к body */
+}
+
+.image {
+  width: 370px; /* width - ширина */
+  height: 354px; /* height - высота */
+  padding-top: 40px; /* внутренний отступ сверху */
+}
+
+.contacts-title {
+  color: #ffffff; /* цвет текста */
+  font-size: 22px; /* размер шрифта */
+  font-weight: 700; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-top: 57px; /* внутренний отступ сверху */
+}
+
+.contacts-info-container {
+  color: #ffffff; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 40px; /* внутренний отступ слева */
+  padding-bottom: 50px; /* внутренний отступ сверху */
+}
+
+.contacts-number-email {
+  padding-left: 10px;
+  color: #606873; /* цвет текста */
+}
+
+a {
+  color: #606873; /* цвет текста */
+}
+
+.skills-title {
+  color: #ffffff; /* цвет текста */
+  font-size: 22px; /* размер шрифта */
+  font-weight: 700; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 20px; /* внутренний отступ слева */
+}
+
+.tech-skills-container {
+  color: #ffffff; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 20px; /* внутренний отступ слева */
+  padding-bottom: 50px; /* внутренний отступ сверху */
+}
+
+.soft-skills-container {
+  color: #ffffff; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 20px; /* внутренний отступ слева */
+}
+
+li {
+  color: #eb650c; /* цвет текста */
+}
+
+span {
+  color: #ffffff; /* цвет текста */
+}
+
+aside {
+  width: 370px; /* width - ширина */
+  background: #1e2939; /* цвет фона */
+  box-sizing: border-box; /* оставляет размер блока неизменным */
+  display: flex; /* выравнивание блока, по умолчанию - горизонтально */
+  flex-direction: column; /* выравнивание блока вертикально */
+}

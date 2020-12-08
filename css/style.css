@@ -8,7 +8,7 @@ body {
   margin: 0px;
 }
 
-.main-container{
+.main-container {
   background-color: #ffffff;
   display: flex;
 }
@@ -24,7 +24,8 @@ body {
   font-weight: 700; /* жирность шрифта  от 100 до 900, с шагом 100 */
   line-height: 24px; /* отступ между строками*/
   text-align: left; /* выравнивание текста слева */
-  margin-top: 40px; /* внутренний отступ сверху */
+  margin-top: 40px; /* отступ между блоками отступ сверху */
+  margin-bottom: 15px; /* отступ между блоками отступ сверху */
 }
 
 .contacts-info-container {
@@ -37,7 +38,7 @@ body {
 }
 
 .contacts-number-email {
-  padding-left: 10px;
+  margin-left: 10px;
   color: #606873; /* цвет текста */
 }
 
@@ -52,7 +53,8 @@ a {
   line-height: 24px; /* отступ между строками*/
   text-align: left; /* выравнивание текста слева */
   padding-left: 20px; /* внутренний отступ слева */
-  margin-top: 40px;
+  margin-top: 40px; /* отступ между блоками отступ сверху */
+  margin-bottom: 15px; /* отступ между блоками отступ сверху */
 }
 
 .tech-skills-container {
@@ -61,16 +63,16 @@ a {
   font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
   line-height: 24px; /* отступ между строками*/
   text-align: left; /* выравнивание текста слева */
-  padding-left: 20px; /* внутренний отступ слева */
+  margin-left: 20px; /* внутренний отступ слева */
 }
 
 .soft-skills-container {
-  color: #ffffff; /* цвет текста */
+  color: #a1a5ac; /* цвет текста */
   font-size: 14px; /* размер шрифта */
   font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
   line-height: 24px; /* отступ между строками*/
   text-align: left; /* выравнивание текста слева */
-  padding-left: 20px; /* внутренний отступ слева */
+  margin-left: 20px; /* внутренний отступ слева */
 }
 
 .skills-info {
@@ -91,9 +93,8 @@ aside {
   padding-bottom: 40px; /* внутренний отступ снизу */
 }
 
-.about-me-container { 
-  padding-top: 110px;
-  padding-bottom: 110px;
-  padding-left: 90px;
+.about-me-container {
+  padding-top: 110px; /* внутренний отступ сверху */
+  padding-bottom: 110px; /* внутренний отступ снизу */
+  padding-left: 90px; /* внутренний отступ слева */
 }
-

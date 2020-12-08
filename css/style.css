@@ -1,7 +1,6 @@
 body {
-
   font-family: 'Montserrat', sans-serif; /* применение шрифта к body */
-  background-color: #f5f7fa;
+  background-color: hsl(215, 46%, 93%);
   padding: 20px; /*  внутренний отступ со всех сторон */
   display: flex;
   justify-content: center;
@@ -96,7 +95,7 @@ aside {
   padding-bottom: 40px; /* внутренний отступ снизу */
 }
 
-.companies{
+.companies {
   width: 550px;
 }
 
@@ -107,22 +106,22 @@ aside {
   padding-left: 90px; /* внутренний отступ слева */
 }
 
-.title-profession{
+.title-profession {
   font-size: 14px;
   font-weight: 700;
   line-height: 25px;
   text-align: left;
 }
 
-.my-name{
+.my-name {
   font-size: 45px;
   font-weight: 700;
   line-height: 90px;
   text-align: left;
 }
 
-.about-me{
-  width: 500px;
+.about-me {
+  width: 400px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -130,7 +129,7 @@ aside {
   margin-bottom: 65px;
 }
 
-.projects-title{
+.projects-title {
   color: #000;
   font-size: 22px;
   font-weight: 700;
@@ -139,22 +138,22 @@ aside {
   margin-bottom: 10px;
 }
 
-.projects{
+.projects {
   color: #606873;
 }
 
-.project-link{
-font-weight: 700;
-color: black;
+.project-link {
+  font-weight: 700;
+  color: black;
 }
 
-.project-text{
+.project-text {
   font-weight: 400;
   text-align: left;
   color: #606873;
 }
 
-.project-list{
+.project-list {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -164,29 +163,29 @@ color: black;
   margin-left: 20px;
 }
 
-.work-title{
+.work-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
   margin-bottom: 20px;
 }
-.work-container{
+.work-container {
   padding-bottom: 25px;
 }
 
-.work{
+.work {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
 }
 
-.company-name{
- color: #ff6b08;
+.company-name {
+  color: #ff6b08;
 }
 
-.period-of-time{
+.period-of-time {
   color: #d1d1d1;
   font-size: 12px;
   font-weight: 400;
@@ -196,7 +195,7 @@ color: black;
   padding-bottom: 15px;
 }
 
-.work-list{
+.work-list {
   color: #595959;
   font-size: 14px;
   letter-spacing: normal;
@@ -206,25 +205,24 @@ color: black;
   margin-left: 20px;
 }
 
-.padding-education{
+.padding-education {
   padding: 0;
   margin-left: 20px;
 }
 
-.education{
+.education {
   padding-top: 40px;
-  padding-bottom: 20px ;
+  padding-bottom: 20px;
 }
 
-.place-of-study-text{
+.place-of-study-text {
   color: #ff6b08;
 }
 
-.earn{
+.earn {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 10px;
 }
-

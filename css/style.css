@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif; /* применение шрифта к body */
-  background-color: hsl(215, 46%, 93%);
+  background-color: #e5ecf5;
   padding: 20px; /*  внутренний отступ со всех сторон */
   display: flex;
   justify-content: center;
@@ -13,6 +13,7 @@ body {
 .main-container {
   background-color: #ffffff;
   display: flex;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0.15);
 }
 
 .image {
@@ -95,10 +96,6 @@ aside {
   padding-bottom: 40px; /* внутренний отступ снизу */
 }
 
-.companies {
-  width: 550px;
-}
-
 .about-me-container {
   width: 600px;
   padding-top: 110px; /* внутренний отступ сверху */
@@ -161,6 +158,10 @@ aside {
   margin-bottom: 50px;
   padding: 0;
   margin-left: 20px;
+}
+
+.companies {
+  width: 550px;
 }
 
 .work-title {
